@@ -11,11 +11,6 @@ export default class PlayScreen extends React.Component {
         lyrics: []
     }
 
-    constructor(props) {
-        super(props);
-        this.state = { searchQuery: '' };
-    }
-
     lyricsHandle = this.lyricsHandle.bind(this)
 
     lyricsHandle() {
