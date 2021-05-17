@@ -24,6 +24,7 @@ export default class PlayScreen extends React.Component {
         document.title = "Musicder | Listen or Download Music For Free"
     }
 
+
     lyricsHandle = this.lyricsHandle.bind(this)
 
     lyricsHandle() {
