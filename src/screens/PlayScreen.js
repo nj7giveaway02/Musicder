@@ -11,20 +11,6 @@ export default class PlayScreen extends React.Component {
         lyrics: [],
     }
 
-    constructor(props) {
-        super(props);
-        this.state = { searchQuery: '' };
-    }
-
-    myChangeHandler = (event) => {
-        this.setState({ searchQuery: event.target.value });
-    }
-
-    componentDidMount() {
-        document.title = "Musicder | Listen or Download Music For Free"
-    }
-
-
     lyricsHandle = this.lyricsHandle.bind(this)
 
     lyricsHandle() {
